@@ -1,0 +1,456 @@
+        body {
+            font: italic small-caps bold Baskerville, "Times New Roman", Times, serif;
+            font-family: 'Cairo', sans-serif;
+            overflow-x: hidden;
+        }
+
+        #cont {
+            width: 100vw;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+
+        }
+
+        /********** START IF HEADER  ***********/
+
+        .header {
+            background: url('../img/blue_bg.png') no-repeat;
+            background-position: bottom;
+            background-size: 100% 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+
+        /********** start of NAV  ***********/
+
+        nav {
+            margin-top: 2%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+
+        /********** start of LOGO  ***********/
+
+        .logoul {
+            list-style-type: none;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+            margin: 1.5% 0 0 14%;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        .logoul li {
+            padding: 0 25px;
+        }
+
+        .logoul li a,
+        .logoul li a:hover,
+        .logoul li a:visited,
+        .logoul li a:active {
+            color: #000;
+            text-decoration: none;
+        }
+
+        .logoul li a:active {
+            border-bottom: 1px solid purple;
+        }
+
+        #logo img {
+            position: absolute;
+            top: 5%;
+            left: 10%;
+            width: 7%;
+            height: 8%;
+            background-image: #000;
+        }
+
+        /********** start of LOGIN  ***********/
+
+        #login {
+            background: url(../img/login_button_bg.png) center/cover no-repeat;
+            padding: .6vh 4vh .8vh 4vh;
+            border-radius: 12px;
+            -ms-flex-item-align: end;
+            align-self: flex-end;
+            margin-right: 5vw;
+        }
+
+        /********** END of LOGIN  ***********/
+
+        .dhero {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -ms-flex-pack: distribute;
+            justify-content: space-around;
+            margin: 20vh 0 0 12vw;
+        }
+
+        .header h1,
+        .header h2 {
+            line-height: .6vw;
+        }
+
+        .header h2 {
+            font-size: 1.5rem;
+            line-height: 1.8vw;
+            font-weight: lighter;
+            -webkit-transform: capitalize;
+            transform: capitalize;
+        }
+
+        /********** start of HERO ***********/
+
+        #hero {
+            font-size: 4em;
+            font-weight: 600;
+
+        }
+
+        #hero span {
+            color: purple;
+        }
+
+        #complicatedphoto {
+            position: absolute;
+            width: 30vw;
+            top: 5vh;
+            right: 13vw;
+        }
+
+        #complicatedphoto .imgg1 {
+            position: absolute;
+            height: 34vh;
+            width: auto;
+            top: 45vh;
+            left: 14vh;
+            z-index: 2;
+        }
+
+        #complicatedphoto .imgg2 {
+            position: absolute;
+            height: 80vh;
+            width: auto;
+            z-index: 0;
+        }
+
+        #complicatedphoto .imgg3 {
+            position: absolute;
+            left: 10vw;
+            top: 5vh;
+            height: 50vh;
+            width: auto;
+            z-index: 1;
+        }
+
+        /********** END OF HERO ***********/
+        /********** start OFIMGWAVE ***********/
+
+        .imgwave {
+            position: relative;
+            top: 15vh;
+            left: -22vw;
+            overflow: hidden;
+        }
+
+        /*************** END OF IMGWAVE ***************/
+        /*************** end OF header  ****************/
+        /**********  START OF MAIN ***********/
+        /**********  START OF  section 1***********/
+
+        .sec1 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            position: relative;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -ms-flex-line-pack: center;
+            align-content: center;
+            height: 120vh;
+            margin: 10vh 0 20vh 0;
+            width: 80vw;
+            padding-left: 20vw;
+        }
+
+        /*************** END OF section 1***************/
+
+        .group1,
+        .group2,
+        .group3,
+        .group4 {
+            position: absolute;
+            width: 18vw;
+            height: 36vh;
+            z-index: 2;
+        }
+
+        /**********  START OF GROUP1 ***********/
+
+        .group1 {
+            top: 24%;
+            left: 6%;
+        }
+
+        .group1 h2,
+        .group1 p {
+            text-align: center;
+            padding: .4vw 0;
+        }
+
+        .group1 img {
+            width: 80%;
+            height: auto;
+            margin-left: 15%;
+        }
+
+        /*************** END OF OF GROUP1 ***************/
+        /**********  START OF GROUP2 ***********/
+
+        .group2 {
+            top: 40%;
+            left: 40%;
+        }
+
+        .group2 h2,
+        .group2 p {
+            text-align: center;
+            padding: .4vw 0;
+        }
+
+        .group2 img {
+            width: 80%;
+            height: auto;
+            margin-left: 15%;
+        }
+
+        /*************** END OF OF GROUP2 ***************/
+        /**********  START OF GROUP3 ***********/
+
+        .group3 {
+            top: 71%;
+            left: 65%;
+        }
+
+        .group3 h2,
+        .group3 p {
+            text-align: center;
+            padding: .4vw 0;
+        }
+
+        .group3 img {
+            width: 80%;
+            height: auto;
+            margin-left: 15%;
+        }
+
+        /*************** END OF OF GROUP3 ***************/
+        /**********  START OF GROUP4 ***********/
+
+        .group4 {
+            background: url(../img/why_kudzoka_bg.png) center/contain no-repeat;
+            top: 70%;
+            left: 10%;
+        }
+
+        .group4 p {
+            padding: 5vw 4vw;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+
+        .group4 p span {
+            font-size: 2.5rem;
+        }
+
+        .group4 img {
+            width: 80%;
+            height: auto;
+            margin-left: 15%;
+            z-index: 1;
+        }
+
+        /*************** END OF OF GROUP4 ***************/
+        /**********  START OF section 1 abslout img ***********/
+
+        img[src="img/second_section_.png"] {
+            position: absolute;
+            width: 70%;
+            height: auto;
+            top: 19vh;
+            right: 12vw;
+            z-index: 0;
+        }
+
+        /*************** END OF section 1 abslout img***************/
+        /*************** END OF MAIN ***************/
+        /*
+        */
+        /*
+        */
+        /**********  START OF  section 2***********/
+
+        .sec2 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            margin: 10vh 0;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .sec2 img {
+            width: 24%;
+            height: auto;
+        }
+
+        img[alt="fast"] {
+            width: 45%;
+            height: auto;
+        }
+
+        .sec2d {
+            position: absolute;
+            top: 50vh;
+        }
+
+        .sec2d p,
+        .sec2d h2 {
+            margin: 5vh 0;
+            text-align: center;
+        }
+
+        .ion {
+            font-size: 2rem;
+        }
+
+        /*************** END OF section 2***************/
+        /*
+        */
+        /*
+        */
+        /**********  START OF  footer***********/
+
+        footer {
+            background: url(../img/Group\ 1131.png) top / 150% 150% no-repeat;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .fotd1 {
+            width: 50vw;
+            position: relative;
+            top: 58vh;
+            left: 9vh;
+        }
+
+        .fotd1 a {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: .6vw .7vw .7vw;
+        }
+
+        .fotd1 img {
+            position: relative;
+            width: 1.5vw;
+            height: auto;
+            top: 1.3vh;
+            padding-right: .5vw;
+        }
+
+        .fotd2 {
+            width: 40vw;
+            position: relative;
+            top: 62vh;
+            left: 8vh;
+        }
+
+        .fotd2 a {
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            padding: 1vw .3vw;
+            margin-right: .6vh;
+        }
+
+        .fotd2 img {
+            position: relative;
+            width: 1.6vw;
+            height: 3vh;
+            top: 2vh;
+        }
+
+        footer ul {
+            position: relative;
+            top: 65vh;
+            left: 5vh;
+        }
+
+        footer ul li {
+            display: inline;
+            list-style: none;
+            color: #fff;
+            padding-right: 3vw;
+        }
+
+        footer img[alt="abslout image2"] {
+            position: relative;
+            width: 50vw;
+            left: 100vh;
+            top: 1vh;
+            z-index: 1;
+        }
+
+
+        .fotnav li a,
+        .fotnav li a:hover,
+        .fotnav li a:visited,
+        .fotnav li a:active {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .fa-brands {
+            color: #fff;
+            font-size: 1.8em;
+            position: relative;
+            top: 15px;
+        }
+
+        /*************** END OF footer***************/
